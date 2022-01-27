@@ -213,6 +213,14 @@ a {
 .advantage-item + .advantage-item {
   margin-left: 30px;
 }
+.advantage-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  background: var(--light-backg-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .advantage-item-title {
   font-weight: 700;
   letter-spacing: 0.03em;
