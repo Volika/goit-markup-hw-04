@@ -150,6 +150,22 @@ a {
   background-color: var(--dark-backg-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  min-height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/hero-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-pic {
+  /* background-size: cover; */
+  /* background: rgba(47, 48, 58, 0.4); */
 }
 .hero-title {
   font-weight: 900;
