@@ -224,9 +224,13 @@ a {
   background-position: center;
   background-size: 70px;
 }
-.icon-antena::before {
-  background-image: url('../images/antenna-1.svg');
+.icon-advant {
+  width: 70px;
+  height: 70px;
 }
+/* .icon-antena::before {
+  background-image: url('../images/antenna-1.svg');
+} */
 .icon-clock::before {
   background-image: url('../images/clock-1.svg');
 }
