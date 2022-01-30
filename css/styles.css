@@ -138,15 +138,16 @@ a {
 .header-link.current {
   color: var(--accent-color);
 }
+.header-connect-link {
+  display: flex;
+  align-items: center;
+  color: tomato;
+  /* color: var(--prim-text-color); */
+}
 .icon-envelope,
 .icon-smartphone {
   margin-right: 10px;
   fill: currentColor;
-}
-.header-connect-link {
-  display: flex;
-  align-items: center;
-  color: var(--prim-text-color);
 }
 .header-connect-link:hover,
 .header-connect-link:focus {
